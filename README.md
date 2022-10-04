@@ -2,7 +2,7 @@
 
 Uses a trigram language model to calculate perplexities of lines from the Friends TV show to predict who a line was said by.
 
---
+---
 
 ## Model
 
@@ -12,7 +12,7 @@ The model then calculates the unigram, bigram, and trigram probabilities that it
 a smoothed trigram probability for each set of words.
 Using the Markov assumption, we are then able to calculate the "likelihood of a sentence", and we use this to calculate the perplexity.
 
---
+---
 
 ## Predicting
 
@@ -20,7 +20,7 @@ Having trained the different character models on their respective scripts, we ar
 For each test line, we calculate the perplexity that each model associates with the sentences, then select the model with the lowest perplexity.
 The corresponding character is the character that the model believes is most likely to have said that sentence.
 
---
+---
 
 ## Examples
 ```

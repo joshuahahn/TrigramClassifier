@@ -247,7 +247,7 @@ if __name__ == '__main__':
 
     print(" ")
     print("Test 3: 'I love you.'")
-    print("Said by: Ross, (among many others)")
+    print("Said by: All")
 
     test3ross = [["i", "love", "you"]]
     ppJoey = JoeyModel.perplexity(test3ross)
